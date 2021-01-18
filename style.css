@@ -12,6 +12,10 @@ header {
   background-size: cover;
   background-position: top;
 }
+body {
+  height: 100vh;
+  overflow: hidden;
+}
 .navbar {
   height: 10%;
   backdrop-filter: blur(5px);
@@ -120,6 +124,14 @@ p {
   height: 35%;
   width: 35%;
   transform: rotate(-35deg) scale(1.1, 1);
+  position: relative;
+  transition: all 0.5s ease-in-out;
+}
+
+.display img:hover {
+  height: 35%;
+  width: 35%;
+  transform: rotate(5deg) scale(1.1, 1);
   position: relative;
 }
 
