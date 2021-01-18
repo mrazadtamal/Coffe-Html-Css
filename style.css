@@ -122,3 +122,20 @@ p {
   transform: rotate(-35deg) scale(1.1, 1);
   position: relative;
 }
+
+@media screen and (max-width: 1000px) {
+  .display {
+    left: -23%;
+    bottom: 30%;
+    position: absolute;
+  }
+
+  .text {
+    bottom: 10%;
+
+    position: absolute;
+  }
+  .text h1 {
+    font-size: 1.5rem;
+  }
+}
